@@ -9,9 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var peripheralController = PeripheralController()
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        VStack {
+            Text(String(peripheralController.currentValue))
+                .padding([.all])
+            
+            Text(peripheralController.state)
+                .padding([.all])
+        }.frame(width: 100, height: 100, alignment: .center)
     }
 }
 

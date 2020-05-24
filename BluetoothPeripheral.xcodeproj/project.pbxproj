@@ -12,6 +12,7 @@
 		521118B0247B1B3E00EF984F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521118AF247B1B3E00EF984F /* Assets.xcassets */; };
 		521118B3247B1B3E00EF984F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521118B2247B1B3E00EF984F /* Preview Assets.xcassets */; };
 		521118B6247B1B3E00EF984F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521118B4247B1B3E00EF984F /* Main.storyboard */; };
+		521118BF247B1BA000EF984F /* PeripheralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521118BE247B1BA000EF984F /* PeripheralController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		521118B5247B1B3E00EF984F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521118B7247B1B3E00EF984F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521118B8247B1B3E00EF984F /* BluetoothPeripheral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothPeripheral.entitlements; sourceTree = "<group>"; };
+		521118BE247B1BA000EF984F /* PeripheralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		521118AA247B1B3600EF984F /* BluetoothPeripheral */ = {
 			isa = PBXGroup;
 			children = (
+				521118BE247B1BA000EF984F /* PeripheralController.swift */,
 				521118AB247B1B3600EF984F /* AppDelegate.swift */,
 				521118AD247B1B3600EF984F /* ContentView.swift */,
 				521118AF247B1B3E00EF984F /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521118BF247B1BA000EF984F /* PeripheralController.swift in Sources */,
 				521118AE247B1B3600EF984F /* ContentView.swift in Sources */,
 				521118AC247B1B3600EF984F /* AppDelegate.swift in Sources */,
 			);
